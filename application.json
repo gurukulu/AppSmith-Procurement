@@ -4,7 +4,16 @@
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "SIDE",
+      "navStyle": "STACKED",
+      "position": "STATIC",
+      "itemStyle": "TEXT",
+      "colorStyle": "LIGHT",
+      "logoAssetId": "",
+      "showSignIn": false
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,
@@ -19,14 +28,28 @@
   "pages": [
     {
       "id": "Page1",
-      "isDefault": true
+      "isDefault": false
+    },
+    {
+      "id": "PRWorkflow",
+      "isDefault": true,
+      "slug": "pr-workflow"
     }
   ],
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "SIDE",
+      "navStyle": "STACKED",
+      "position": "STATIC",
+      "itemStyle": "TEXT",
+      "colorStyle": "LIGHT",
+      "logoAssetId": "",
+      "showSignIn": false
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,
